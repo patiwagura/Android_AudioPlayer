@@ -1,0 +1,10 @@
+AudioPlayer.iml
+build.gradle
+/gradle
+/.gradle
+gradle.properties
+gradlew*
+gradlew.bat
+/.idea
+local.properties
+settings.gradle

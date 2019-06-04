@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.pato.audioplayer.MainActivity">
+    
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnPlay"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="||"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnForward"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@+id/btnPlay"
+        android:layout_marginLeft="20dp"
+        android:text="&gt;&gt;"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_toLeftOf="@+id/btnPlay"
+        android:layout_marginRight="20dp"
+        android:text="&gt;&gt;"
+        android:textSize="20dp"/>
+
+    <SeekBar android:layout_width="match_parent"
+        android:id="@+id/seekbar"
+        android:layout_marginTop="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+</RelativeLayout>
